@@ -44,5 +44,4 @@ public class HomeWork6 {
         String jsonResponse = client.newCall(requesthttp).execute().body().string();
         System.out.println(jsonResponse);
     }
-
 }
